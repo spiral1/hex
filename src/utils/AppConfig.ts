@@ -1,6 +1,7 @@
 export const AppConfig = {
-  site_name: 'React landing page',
-  title: 'React landing page template 2021',
-  description: 'Production ready plug n play landing page!',
+  site_name: 'The Hex Project',
+  title: 'The Hex Project',
+  description:
+    'The Hex Project is a audio rental company based in the UK providing scalable Element 5 systems to suit your events needs',
   locale: 'en',
 };

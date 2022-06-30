@@ -1,83 +1,92 @@
 {
   "company": {
-    "name": "React landing page 2021",
+    "name": "The Hex Project",
     "logo": "/assets/images/logo.png"
   },
   "navigation": [
     {
-      "name": "Product",
+      "name": "About",
+      "href": "about"
+    },
+    {
+      "name": "Equipment",
       "href": "product"
     },
     {
-      "name": "Features",
+      "name": "Services",
       "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
     }
   ],
   "callToAction": {
-    "text": "Get started",
+    "text": "Hire",
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "The Hex Project",
+    "subtitle": "Professional sound hire",
+    "description": "UK based, professional audio rental company providing scalable Element 5 systems to suit your events needs",
+    "img": "/assets/images/hexRig.jpg",
     "primaryAction": {
-      "text": "Get started",
+      "text": "Hire",
       "href": "#"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "text": "More info",
+      "href": "about"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Our Equipment",
+    "description": "The Element 5 Hex range of speakers has been designed from the ground up to deliver the highest possible volume and sound quality from a lightwight package with an incredibly small footprint. Not only do these speakers sound spectacular, but they also look the part, with a contemporary hexagonal styling to help distinguish your event audio from the rest. We are currently the only audio hire hire company officring this uniquely distinctive sound system.",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "HEX 68R",
+        "description": "The revolutionary HEX 68R combines a point source/array into a single enclosure solution. Using Element 5 Systems unique ribbon array design, these speakers provide crystal clear and beautifully accurate sound. These speakers will be sure to capture the imagination of your audience.",
+        "one": "Wide dispersion",
+        "two": "Extremely flat mid frequency response",
+        "three": "Superb high frequency characteristics",
+        "four": "High sensitivity",
+        "img": "/assets/images/68r.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "HEX RB218",
+        "description": "The RB218 is a compact and lightwuight dual 18\" reflex subwoofer delivering an abundance of warm and tight low end which is highly controllable using multiple cardioid configurations. This enables the client to effectively control sound overspill both on and off site.",
+        "one": "Extremely low distortion",
+        "two": "Small footprint and easily scalable",
+        "three": "Fully cardioid compatible",
+        "four": "Powerful and accurate low end",
+        "img": "/assets/images/rb218.jpg"
+      },
+      {
+        "title": "LINEA RESEARCH AMPLIFICATION",
+        "description": "Offering a unique and peerless audio performance integrated with an intelligent DSP, the 44M and 48M Series represents an unmatched advancement in amplifier technology.",
+        "one": "Over designed high capacity power supplies",
+        "two": "Unrivalled power and audio quality",
+        "three": "High performance DSP processing",
+        "four": "Sonically pure Class D amplification",
+        "img": "/assets/images/linea.jpg"
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
+    "title": "Other services we provide",
     "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "description": "It is also possible for us to source other Element 5 equipment which is not currently currently in our inventory. We also have a considerable amount of Martin Audio sound equipment available for hire alongside a selection of up to date DJ and monitoring equipment. working together with our partners, we can provide exciting talent including:",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "name": "Bespoke set and stage design",
         "icon": "/assets/images/react.png"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "name": "Live musicians, bands and DJs",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "name": "Visuals, lighting and projection mapping",
         "icon": "/assets/images/nextjs.svg"
       },
       {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "name": "Performers, dancers and circus skills",
         "icon": "/assets/images/ts.png"
       }
     ]
@@ -122,6 +131,21 @@
     ]
   },
   "about": {
+    "items": [
+      {
+        "title": "Who is the Hex Project",
+        "description": "The Hex Project is a new UK based, professional audio rental company providing scalable Element 5 systems to suit your event needs. Whether it be a festival, club night, corporate event or a wedding, offering true sonic quality is our priority. We are a collective of like-minded individuals who have come together to provide high quality aidio solutions. Working with our partners we can also offer event/stage packages to match the client's vision.",
+        "firstBulletPoint": "Professional rental company",
+        "secondBulletPoint": "High end professional audio solutions",
+        "thirdBulletPoint": "Tailor made event package working with pur partners",
+        "fourthBulletPoint": "Highly distinctive Element 5 HEX systems",
+        "img": "/assets/images/hexRig.jpg",
+        "primaryAction": {
+          "text": "More info",
+          "href": "product"
+        }
+      }
+    ],
     "sections": [
       {
         "name": "Something",
