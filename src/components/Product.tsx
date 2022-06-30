@@ -65,7 +65,7 @@ const Product = () => {
               >
                 {secondItem?.title}
               </h3>
-              <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
+              <p className={`text-secondary mb-8`}>{secondItem?.description}</p>
               <ul className="list-disc text-secondary marker:text-primary ml-3 mt-5">
                 <li>{secondItem?.one}</li>
                 <li>{secondItem?.two}</li>
