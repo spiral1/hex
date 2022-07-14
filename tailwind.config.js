@@ -16,6 +16,9 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      backgroundImage: () => ({
+        hexRig: "url('/assets/images/hex-country-purple.jpg')",
+      }),
       colors: {
         primary: '#ffa800',
         secondary: '#ffffff',
@@ -42,5 +45,4 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
 };
