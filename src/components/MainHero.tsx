@@ -3,12 +3,14 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
+import MainHeroImage from './MainHeroImage';
 
 const MainHero = () => {
   const { mainHero } = config;
   return (
     <main className=" w-full h-screen bg-cover bg-center">
       <div className="sm:text-center lg:text-left">
+        <MainHeroImage></MainHeroImage>
         <h1 className="text-4xl tracking-tight font-extrabold text-white-900 sm:text-5xl md:text-6xl">
           <span className="block text-primary xl:inline">{mainHero.title}</span>{' '}
           <span className={`block text-secondary xl:inline`}>
