@@ -1,27 +1,35 @@
 import React from 'react';
 
+import Image from 'next/image';
 import { Link } from 'react-scroll';
 
 import config from '../config/index.json';
-import MainHeroImage from './MainHeroImage';
 
 const MainHero = () => {
   const { mainHero } = config;
   return (
-    <main className=" w-full h-screen bg-cover bg-center">
-      <div className="sm:text-center lg:text-left">
-        <MainHeroImage></MainHeroImage>
-        <h1 className="text-4xl tracking-tight font-extrabold text-white-900 sm:text-5xl md:text-6xl">
-          <span className="block text-primary xl:inline">{mainHero.title}</span>{' '}
-          <span className={`block text-secondary xl:inline`}>
-            {mainHero.subtitle}
-          </span>
-        </h1>
-        <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-          {mainHero.description}
-        </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="rounded-md shadow">
+    <main className=" w-full h-screen ">
+      <div className="sm:text-center">
+        <div className="grid place-items-center items-center mt-10 container">
+          <Image
+            src={mainHero.img}
+            alt="Hex project logo"
+            width="400px"
+            height="391px"
+            className="object-center"
+          />
+
+          <h1 className="text-2xl tracking-tight font-bold text-white-500 sm:text-5xl md:text-6xl text-center">
+            <span className={`block text-secondary xl:inline `}>
+              {mainHero.subtitle}
+            </span>
+          </h1>
+          <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center">
+            {mainHero.description}
+          </p>
+        </div>
+        <div className=" grid justify-items-center mt-5 sm:mt-8 sm:flex sm:justify-center justify-center">
+          <div className="rounded-md shadow content-center">
             <a
               href={mainHero.primaryAction.href}
               className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary hover:bg-background hover:text-secondary hover:border-primary md:py-4 md:text-lg md:px-10`}
@@ -38,7 +46,7 @@ const MainHero = () => {
               key={mainHero.secondaryAction.text}
               to={mainHero.secondaryAction.href}
               href={mainHero.secondaryAction.href}
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-tertiary md:py-4 md:text-lg md:px-10`}
+              className={`w-full flex items-center content-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-tertiary md:py-4 md:text-lg md:px-10`}
             >
               {mainHero.secondaryAction.text}
             </Link>

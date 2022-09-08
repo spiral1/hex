@@ -15,6 +15,10 @@
     {
       "name": "Services",
       "href": "features"
+    },
+    {
+      "name": "Gallery",
+      "href": "gallery"
     }
   ],
   "callToAction": {
@@ -25,7 +29,7 @@
     "title": "The Hex Project",
     "subtitle": "Professional sound hire",
     "description": "UK based, professional audio rental company providing scalable Element 5 systems to suit your events needs",
-    "img": "/assets/images/hexRig.jpg",
+    "img": "/assets/images/hexLogo.png",
     "primaryAction": {
       "text": "Hire",
       "href": "#"
@@ -76,19 +80,20 @@
     "items": [
       {
         "name": "Bespoke set and stage design",
-        "icon": "/assets/images/react.png"
+        "icon": "/assets/images/react.png",
+        "img": "/assets/images/setDesign.jpg"
       },
       {
         "name": "Live musicians, bands and DJs",
-        "icon": "/assets/images/tailwindcss.svg"
+        "icon": "/assets/images/setDesign.jpg"
       },
       {
         "name": "Visuals, lighting and projection mapping",
-        "icon": "/assets/images/nextjs.svg"
+        "icon": "/assets/images/setDesign.jpg"
       },
       {
         "name": "Performers, dancers and circus skills",
-        "icon": "/assets/images/ts.png"
+        "icon": "/assets/images/setDesign.jpg"
       }
     ]
   },
@@ -169,6 +174,9 @@
         "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
       }
     ],
+    "gallery": {
+      "title": "Gallery"
+    },
     "socialMedia": {
       "github": "https://github.com/issaafalkattan",
       "twitter": "https://twitter.com/issaafkattan",

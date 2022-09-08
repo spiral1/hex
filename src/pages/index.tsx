@@ -2,6 +2,8 @@ import React from 'react';
 
 import About from '../components/About';
 import Analytics from '../components/Analytics';
+import Features from '../components/Features';
+import Gallery from '../components/Gallery';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
@@ -9,11 +11,11 @@ import Product from '../components/Product';
 
 const App = () => {
   return (
-    <div className={`bg-background grid gap-y-16 overflow-hidden`}>
-      <div className={`relative bg-hexRig bg-center bg-cover`}>
+    <div className={`bg-background grid gap-y-7 overflow-hidden`}>
+      <Header />
+      <div className={`relative bg-center bg-cover`}>
         <div className="max-w-7xl mx-auto">
           <div className={`flex`}>
-            <Header />
             <MainHero />
           </div>
         </div>
@@ -26,11 +28,15 @@ const App = () => {
         </>
       </LazyShow>
       <LazyShow>
-        <></>
+        <>
+          <Features />
+        </>
       </LazyShow>
 
       <LazyShow>
-        <></>
+        <>
+          <Gallery />
+        </>
       </LazyShow>
       <Analytics />
     </div>
