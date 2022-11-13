@@ -43,20 +43,12 @@ const Product = () => {
             </ul>
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={firstItem?.img}
-              alt={firstItem?.title}
-            />
+            <img src={firstItem?.img} alt={firstItem?.title} />
           </div>
         </div>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
           <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={secondItem?.img}
-              alt={secondItem?.title}
-            />
+            <img src={secondItem?.img} alt={secondItem?.title} />
           </div>
           <div className={`w-full sm:w-1/2 p-6 mt-20`}>
             <div className={`align-middle`}>
@@ -91,11 +83,7 @@ const Product = () => {
             </ul>
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
-            <img
-              className="h-6/6"
-              src={thirdItem?.img}
-              alt={thirdItem?.title}
-            />
+            <img src={thirdItem?.img} alt={thirdItem?.title} />
           </div>
         </div>
       </div>
