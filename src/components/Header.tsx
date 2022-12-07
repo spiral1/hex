@@ -43,7 +43,7 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="font-medium text-gray-200 hover:primary-color"
+                  className="font-medium text-gray-200 hover:text-primary"
                 >
                   {item.name}
                 </Link>
