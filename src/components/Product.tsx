@@ -34,7 +34,9 @@ const Product = () => {
             >
               {firstItem?.title}
             </h3>
-            <p className={`text-secondary`}>{firstItem?.description}</p>
+            <p className={`text-secondary text-justify`}>
+              {firstItem?.description}
+            </p>
             <ul className="list-disc text-secondary marker:text-primary ml-3 mt-5">
               <li>{firstItem?.one}</li>
               <li>{firstItem?.two}</li>

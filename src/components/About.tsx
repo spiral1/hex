@@ -24,7 +24,7 @@ const About = () => {
             <h3 className={`text-3xl text-primary font-bold leading-none mb-3`}>
               {item?.title}
             </h3>
-            <p className={`text-secondary text-centers`}>{item?.description}</p>
+            <p className={`text-secondary text-justify`}>{item?.description}</p>
             <ul className="ml-3 mt-5 text-secondary list-disc marker:text-primary">
               <li>{item?.firstBulletPoint}</li>
               <li>{item?.secondBulletPoint}</li>

@@ -13,9 +13,9 @@ const Menu = () => {
   return (
     <>
       <Popover>
-        <div className="relative pt-6 px-4 sm:px-6 lg:px-8 content-center">
+        <div className="relative sm:px-6  content-center ">
           <nav
-            className="relative flex items-center justify-center sm:h-10 "
+            className="fixed flex items-center bg-background h-26 z-50"
             aria-label="Global"
           >
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
