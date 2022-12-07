@@ -20,8 +20,10 @@ const About = () => {
           <img src={logo} alt={companyName} className="w-16 h-16" />
         </div>
         <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
-            <h3 className={`text-3xl text-primary font-bold leading-none mb-3`}>
+          <div className={` sm:w-1/2 p-6 mt-20`}>
+            <h3
+              className={`text-3xl text-primary font-bold text-center leading-none mb-3`}
+            >
               {item?.title}
             </h3>
             <p className={`text-secondary text-justify`}>{item?.description}</p>

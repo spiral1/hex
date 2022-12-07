@@ -28,7 +28,7 @@ const Product = () => {
         </h1>
         <Divider />
         <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
+          <div className={`sm:w-1/2 p-6 mt-20`}>
             <h3
               className={`text-3xl text-primary  font-bold leading-none mb-3`}
             >
@@ -59,7 +59,9 @@ const Product = () => {
               >
                 {secondItem?.title}
               </h3>
-              <p className={`text-secondary mb-8`}>{secondItem?.description}</p>
+              <p className={`text-secondary mb-8 text-justify`}>
+                {secondItem?.description}
+              </p>
               <ul className="list-disc text-secondary marker:text-primary ml-3 mt-5">
                 <li>{secondItem?.one}</li>
                 <li>{secondItem?.two}</li>
@@ -70,13 +72,15 @@ const Product = () => {
           </div>
         </div>
         <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
+          <div className={`sm:w-1/2 p-6 mt-20`}>
             <h3
               className={`text-3xl text-primary  font-bold leading-none mb-3`}
             >
               {thirdItem?.title}
             </h3>
-            <p className={`text-secondary`}>{thirdItem?.description}</p>
+            <p className={`text-secondary text-justify`}>
+              {thirdItem?.description}
+            </p>
             <ul className="list-disc text-secondary marker:text-primary ml-3 mt-5">
               <li>{thirdItem?.one}</li>
               <li>{thirdItem?.two}</li>
