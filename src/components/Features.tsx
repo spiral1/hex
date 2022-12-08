@@ -8,7 +8,7 @@ const Features = () => {
   const { title, description, items: featuresList } = features;
   const { logo, name: companyName } = company;
   return (
-    <div className={`py-12 bg-background`} id="features">
+    <div className={`py-12 bg3`} id="features">
       <div className="items-center">
         <img src={logo} alt={companyName} className="w-16 h-16 mx-auto" />
       </div>

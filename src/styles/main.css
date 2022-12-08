@@ -9,7 +9,18 @@
   --color-tertiaty: #99a0a3;
 }
 
+#background{
+  background-image: url("/assets/images/bg.png"), linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
 
+}
+
+.bg2{
+  background-image: url("/assets/images/bg2.jpg")
+}
+
+.bg3{
+  background-image: url("/assets/images/bg3.jpg")
+}
 
 .content p {
   @apply my-6;
@@ -25,7 +36,6 @@
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
-  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   list-style-type: none;
 }
