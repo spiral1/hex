@@ -8,6 +8,7 @@ import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import Product from '../components/Product';
+import Contact from '../components/Contact';
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
           <Gallery />
         </>
       </LazyShow>
+        <Contact />
       <Analytics />
     </div>
   );
